@@ -6,7 +6,7 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/15 10:10:37 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/15 15:32:25 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/15 18:26:19 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static void	divide_into_two_lst(
 }
 
 static t_list	*merge_two_lst(
-	t_list *left_lst, t_list *right_lst, t_order_func f)
+	t_list *left_lst, t_list *right_lst, const t_order_func f)
 {
 	t_list	dummy_lst;
 	t_list	*sorted_lst;
@@ -55,7 +55,7 @@ static t_list	*merge_two_lst(
 	return (dummy_lst.next);
 }
 
-t_list	*merge_sort_lst(t_list *lst, t_order_func f)
+t_list	*merge_sort_lst(t_list *lst, const t_order_func f)
 {
 	t_list	*left_lst;
 	t_list	*right_lst;

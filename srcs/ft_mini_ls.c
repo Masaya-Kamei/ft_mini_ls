@@ -6,7 +6,7 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 17:42:58 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/15 15:39:18 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/15 18:25:20 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,8 @@ static t_status	read_current_dir_files(t_list **file_lst)
 	return (SUCCESS);
 }
 
-static bool	is_older_update_time(t_file *target_file, t_file *comp_file)
+static bool	is_older_update_time(
+	const t_file *target_file, const t_file *comp_file)
 {
 	long	flag;
 
