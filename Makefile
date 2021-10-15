@@ -6,11 +6,12 @@
 #    By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/14 15:59:00 by mkamei            #+#    #+#              #
-#    Updated: 2021/10/14 16:10:21 by mkamei           ###   ########.fr        #
+#    Updated: 2021/10/15 10:39:36 by mkamei           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCSNAME:=	main.c utils/str.c
+SRCSNAME:=	main.c ft_mini_ls.c utils/free.c utils/str.c utils/list.c \
+			utils/merge_sort.c
 SRCSDIR	:=	./srcs
 SRCS	:=	$(addprefix $(SRCSDIR)/, $(SRCSNAME))
 
