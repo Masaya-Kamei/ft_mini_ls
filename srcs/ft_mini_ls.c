@@ -6,12 +6,11 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 17:42:58 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/15 18:25:20 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/19 19:51:28 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_mini_ls.h"
-#include "ft_mini_ls_utils.h"
 
 static t_status	create_new_file_lst(const char *file_name
 	, const struct timespec last_update_time, t_list **new_lst)

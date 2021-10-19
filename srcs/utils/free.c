@@ -6,12 +6,11 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 17:19:04 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/14 17:42:23 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/19 19:51:37 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_mini_ls.h"
-#include "ft_mini_ls_utils.h"
 
 void	free_file_struct(t_file *file)
 {

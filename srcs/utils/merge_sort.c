@@ -6,12 +6,11 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/15 10:10:37 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/15 18:26:19 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/19 19:51:43 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_mini_ls.h"
-#include "ft_mini_ls_utils.h"
 
 static void	divide_into_two_lst(
 	t_list *lst, t_list **left_lst, t_list **right_lst)

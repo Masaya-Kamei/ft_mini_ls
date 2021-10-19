@@ -6,12 +6,11 @@
 /*   By: mkamei <mkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 16:01:08 by mkamei            #+#    #+#             */
-/*   Updated: 2021/10/14 17:59:30 by mkamei           ###   ########.fr       */
+/*   Updated: 2021/10/19 19:51:32 by mkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_mini_ls.h"
-#include "ft_mini_ls_utils.h"
 
 int	main(int argc, char **argv)
 {
