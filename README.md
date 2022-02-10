@@ -11,7 +11,7 @@ Same result as this command `ls -1tr`.
 git clone https://github.com/Masaya-Kamei/ft_mini_ls.git;
 cd ft_mini_ls;
 make;
-echo "\n---Output---";
+echo -e "\n---Output---";
 (cd unit_tests/testdir && ../../ft_mini_ls);
 ```
 
