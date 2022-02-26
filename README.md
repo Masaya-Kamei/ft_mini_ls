@@ -3,9 +3,11 @@
 Same result as this command `ls -1tr`.  
 (No commandline arguments)
 
+## Usage
+
 `./ft_mini_ls`
 
-## Usage example
+## Script
 
 ```zsh
 git clone https://github.com/Masaya-Kamei/ft_mini_ls.git;
